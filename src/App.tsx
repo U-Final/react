@@ -5,9 +5,10 @@ import './App.css';
 
 function App() {
   const [count, setCount] = useState(0);
+  const testVariable = 'This should trigger ESLint error';
 
   return (
-    <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center"
+    <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center">
       <div className="flex gap-8 mb-8">
         <a href="https://vite.dev" target="_blank">
           <img
